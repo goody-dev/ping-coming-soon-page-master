@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+body {
+  margin: 0;
+  padding: 3rem;
+  box-sizing: border-box;
+  font-family: "Libre Franklin";
+  font-size: 20px;
+}
+
+header {
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}
+
+#main-text {
+  font-size: 40px;
+}
+
+#email-input {
+  border: solid 1px hsl(233deg, 87%, 63%);
+  border-radius: 50px;
+  height: 40px;
+  padding-left: 8px;
+  width: 300px;
+  margin: 4px;
+}
+
+#submit-button {
+  color: white;
+  border: none;
+  border-radius: 50px;
+  height: 42px;
+  background-color: hsl(233deg, 87%, 63%);
+  width: 150px;
+  box-shadow: 3px 3px 6px hsl(223deg, 100%, 88%);
+  margin: 4px;
+}/*# sourceMappingURL=index.css.map */

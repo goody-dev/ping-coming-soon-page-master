@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+$mobile: 375px;
+$desktop: 1440px;
+$blue: hsl(233, 87%, 63%);
+$pale-blue: hsl(223, 100%, 88%);
+$light-red: hsl(354, 100%, 66%);
+$grey: hsl(0, 0%, 59%);
+$very-dark-blue: hsl(209, 33%, 12%);
+$fontSize: 20px;
+$fontFamily: "Libre Franklin";
+$fontWeighht: 300, 600, 700;
+
+body {
+    margin: 0;
+    padding: 3rem;
+    box-sizing: border-box;
+    font-family: $fontFamily;
+    font-size: $fontSize;
+}
+header {
+    text-align: center;
+}
+svg {
+    
+}
+div {
+    text-align: center;
+}
+#main-text {
+    font-size: 40px;
+}
+#email-input {
+    border: solid 1px $blue;
+    border-radius: 50px;
+    height: 40px;
+    padding-left: 8px;
+    width: 300px;
+    margin: 4px;
+}
+#submit-button {
+    color: white;
+    border: none;
+    border-radius: 50px;
+    height: 42px;
+    background-color: $blue;
+    width: 150px;
+    box-shadow: 3px 3px 6px $pale-blue;
+    margin: 4px;
+}

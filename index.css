@@ -37,4 +37,8 @@ div {
   width: 150px;
   box-shadow: 3px 3px 6px hsl(223deg, 100%, 88%);
   margin: 4px;
+}
+
+#img-div {
+  padding: 0%;
 }/*# sourceMappingURL=index.css.map */

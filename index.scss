@@ -14,7 +14,7 @@ body {
     margin: 0;
     padding: 3rem;
     box-sizing: border-box;
-    font-family: $fontFamily;
+    font-family: "Libre Franklin";
     font-size: $fontSize;
 }
 header {
@@ -24,15 +24,24 @@ div {
     text-align: center;
 }
 #main-text {
-    font-size: 40px;
+    font-size: xx-large;
+    color: $grey;
+    font
+}
+#main-text > strong {
+    color: $very-dark-blue;
+}
+#sub-text {
+    font-size: large;
 }
 #email-input {
-    border: solid 1px $blue;
+    border: solid 1px $pale-blue;
     border-radius: 50px;
     height: 40px;
     padding-left: 8px;
-    width: 300px;
+    width: 30vw;
     margin: 4px;
+    color: $pale-blue;
 }
 #submit-button {
     color: white;
@@ -40,10 +49,63 @@ div {
     border-radius: 50px;
     height: 42px;
     background-color: $blue;
-    width: 150px;
+    width: 10vw;
+    min-width: max-content;
     box-shadow: 3px 3px 6px $pale-blue;
     margin: 4px;
 }
+#copy-text {
+    color: $grey;
+}
 #img-div {
-    padding: 0%;
+    padding: auto;
+    width: auto;
+}
+#illustration {
+    width: 50%;
+    margin: 30px auto;
+}
+@media (max-width: 375px) {
+    body {
+        margin: 0;
+        padding: 50px 0;
+        box-sizing: border-box;
+    }
+    #main-text {
+        font-size: 20px;
+    }
+    #email-input {
+        border: solid 1px $pale-blue;
+        border-radius: 50px;
+        height: 33px;
+        padding-left: 25x;
+        width: 67vw;
+        margin: auto;
+        color: $pale-blue;
+        font-size: x-small;
+    }
+    #submit-button {
+        color: white;
+        border: none;
+        border-radius: 50px;
+        height: 35px;
+        background-color: $blue;
+        width: 70vw;
+        box-shadow: 3px 3px 6px $pale-blue;
+        margin: 8px auto;
+        font-size: x-small;
+    }
+    #main-text {
+        font-size: x-large;
+    }
+    #sub-text {
+        font-size: small;
+    }
+    #illustration {
+        width: 80%;
+        margin: 30px auto;
+    }
+    #copy-text {
+        font-size: x-small;
+    }
 }

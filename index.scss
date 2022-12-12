@@ -14,11 +14,12 @@ body {
     margin: 0;
     padding: 3rem;
     box-sizing: border-box;
-    font-family: "Libre Franklin";
+    font-family: $fontFamily;
     font-size: $fontSize;
 }
 header {
     text-align: center;
+    padding-top: 1rem;
 }
 div {
     text-align: center;
@@ -26,13 +27,19 @@ div {
 #main-text {
     font-size: xx-large;
     color: $grey;
-    font
 }
 #main-text > strong {
     color: $very-dark-blue;
 }
 #sub-text {
     font-size: large;
+}
+#notify-form {
+    display: flex;
+    flex-direction: row;
+    width: min-content;
+    text-align: center;
+    margin: auto;
 }
 #email-input {
     border: solid 1px $pale-blue;
@@ -41,7 +48,8 @@ div {
     padding-left: 8px;
     width: 30vw;
     margin: 4px;
-    color: $pale-blue;
+    color: $very-dark-blue;
+    font-size: small;
 }
 #submit-button {
     color: white;
@@ -54,6 +62,18 @@ div {
     box-shadow: 3px 3px 6px $pale-blue;
     margin: 4px;
 }
+#error-message {
+    display: block;
+    padding: 0;
+    margin: 0;
+    font-size: small;
+    width: auto;
+}
+#submit-button:hover {
+    cursor: pointer;
+    background-color: $pale-blue;
+}
+
 #copy-text {
     color: $grey;
 }
@@ -72,7 +92,11 @@ div {
         box-sizing: border-box;
     }
     #main-text {
-        font-size: 20px;
+        font-size: large;
+    }
+    #notify-form {
+        display: flex;
+        flex-direction: column;
     }
     #email-input {
         border: solid 1px $pale-blue;
@@ -81,8 +105,8 @@ div {
         padding-left: 25x;
         width: 67vw;
         margin: auto;
-        color: $pale-blue;
-        font-size: x-small;
+        color: $very-dark-blue;
+        font-size: small;
     }
     #submit-button {
         color: white;
@@ -93,7 +117,7 @@ div {
         width: 70vw;
         box-shadow: 3px 3px 6px $pale-blue;
         margin: 8px auto;
-        font-size: x-small;
+        font-size: small;
     }
     #main-text {
         font-size: x-large;

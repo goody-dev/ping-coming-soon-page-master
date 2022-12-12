@@ -23,8 +23,11 @@
     <p id="sub-text">Subscribe and get notified</p>
   </div>
   <div>
-    <form action="#">
-      <input type="email" id="email-input" placeholder="Your email address...">
+    <form id="notify-form" onsubmit="validate()" action="#">
+      <div>
+        <input id="email-input" placeholder="Your email address...">
+        <p id="error-message"></p>
+      </div>
       <button type="submit" id="submit-button">Notify Me</button>
     </form>
   </div>
@@ -45,5 +48,8 @@
       Coded by <a href="#">Goodness Okanlawon</a>.
     </p>
   </footer>
+  <script type="text/javascript" src="./index.js">
+    
+  </script>
 </body>
 </html>

@@ -4,7 +4,7 @@ function validate() {
     if(x === "") {
         document.getElementById('email-input').style.borderColor = "hsl(354, 100%, 66%)";
         document.getElementById('error-message').style.color = "hsl(354, 100%, 66%)";
-        document.getElementById('error-message').innerHTML = "Whoops! It looks like you forgot to add your email";
+        document.getElementById('error-message').innerHTML = "<i>Whoops! It looks like you forgot to add your email</i>";
     }else if(at === -1) {
         document.getElementById('error-message').style.color = "hsl(354, 100%, 66%)";
         document.getElementById('error-message').innerHTML = "<i>Please provide a valid email address</i>";

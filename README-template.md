@@ -57,6 +57,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- [JavaScript](https://javascript.org/) - JS library
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
@@ -104,7 +105,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Twitter - [@Code_Evolver](https://www.twitter.com/Code_Evolver)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 

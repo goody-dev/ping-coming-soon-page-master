@@ -35,12 +35,10 @@ Users should be able to:
 
 ![](./codeevolver.github.io_ping-coming-soon-page-master_(iPad%20Air).png)
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/CodeEvolver/ping-coming-soon-page-master)
-- Live Site URL: [Add live site URL here](https://codeevolver.github.io/ping-coming-soon-page-master/)
+- Solution URL: [https://github.com/CodeEvolver/ping-coming-soon-page-master](https://github.com/CodeEvolver/ping-coming-soon-page-master)
+- Live Site URL: [(https://codeevolver.github.io/ping-coming-soon-page-master/](https://codeevolver.github.io/ping-coming-soon-page-master/)
 
 ## My process
 

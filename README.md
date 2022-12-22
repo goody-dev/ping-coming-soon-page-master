@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/CodeEvolver/ping-coming-soon-page-master](https://github.com/CodeEvolver/ping-coming-soon-page-master)
-- Live Site URL: [(https://codeevolver.github.io/ping-coming-soon-page-master/](https://codeevolver.github.io/ping-coming-soon-page-master/)
+- Live Site URL: [https://codeevolver.github.io/ping-coming-soon-page-master/](https://codeevolver.github.io/ping-coming-soon-page-master/)
 
 ## My process
 

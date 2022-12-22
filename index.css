@@ -91,6 +91,28 @@ div {
   margin: 30px auto;
 }
 
+#socials {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.fa {
+  color: hsl(233deg, 87%, 63%);
+  padding: 7px;
+  margin: auto 5px;
+  border-radius: 50%;
+  border: 1px solid hsl(223deg, 100%, 88%);
+  font-size: 17px;
+}
+
+.fa-facebook {
+  width: 18px;
+}
+
+.fa-instagram {
+  width: 17px;
+}
+
 @media (max-width: 375px) {
   body {
     margin: 0;

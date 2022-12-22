@@ -75,7 +75,7 @@ div {
 
 #submit-button:hover {
   cursor: pointer;
-  background-color: hsl(223deg, 100%, 88%);
+  background-color: hsl(233deg, 87%, 63%);
 }
 
 #copy-text {
@@ -108,6 +108,11 @@ div {
   border-radius: 50%;
   border: 1px solid hsl(223deg, 100%, 88%);
   font-size: 17px;
+}
+
+.fa:hover {
+  color: white;
+  background-color: hsl(233deg, 87%, 63%);
 }
 
 .fa-facebook {

@@ -72,7 +72,7 @@ div {
 }
 #submit-button:hover {
     cursor: pointer;
-    background-color: $pale-blue;
+    background-color: $blue;
 }
 
 #copy-text {
@@ -100,6 +100,10 @@ div {
     border-radius: 50%;
     border: 1px solid $pale-blue;
     font-size: clamp(15px, 17px, 20px);
+}
+.fa:hover {
+    color: white;
+    background-color: $blue;
 }
 .fa-facebook {
     width: 18px;

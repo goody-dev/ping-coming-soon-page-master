@@ -47,7 +47,7 @@ div {
     border-radius: 50px;
     height: 40px;
     padding-left: 8px;
-    width: 30vw;
+    width: 35vw;
     margin: 4px;
     color: $very-dark-blue;
     font-size: small;
@@ -58,7 +58,7 @@ div {
     border-radius: 50px;
     height: 42px;
     background-color: $blue;
-    width: 10vw;
+    width: 15vw;
     min-width: max-content;
     box-shadow: 3px 3px 6px $pale-blue;
     margin: 4px;
@@ -112,7 +112,7 @@ div {
     width: 17px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 485px) {
     body {
         margin: 0;
         padding: 50px 0;

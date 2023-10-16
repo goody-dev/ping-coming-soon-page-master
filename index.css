@@ -19,11 +19,11 @@ div {
 
 #main-text {
   font-size: xx-large;
-  color: hsl(0deg, 0%, 59%);
+  color: hsl(0, 0%, 59%);
 }
 
 #main-text > strong {
-  color: hsl(209deg, 33%, 12%);
+  color: hsl(209, 33%, 12%);
 }
 
 #sub-text {
@@ -33,7 +33,6 @@ div {
 #notify-form {
   display: flex;
   flex-direction: row;
-  width: -webkit-min-content;
   width: -moz-min-content;
   width: min-content;
   text-align: center;
@@ -41,13 +40,13 @@ div {
 }
 
 #email-input {
-  border: solid 1px hsl(223deg, 100%, 88%);
+  border: solid 1px hsl(223, 100%, 88%);
   border-radius: 50px;
   height: 40px;
   padding-left: 8px;
-  width: 30vw;
+  width: 35vw;
   margin: 4px;
-  color: hsl(209deg, 33%, 12%);
+  color: hsl(209, 33%, 12%);
   font-size: small;
 }
 
@@ -56,12 +55,11 @@ div {
   border: none;
   border-radius: 50px;
   height: 42px;
-  background-color: hsl(233deg, 87%, 63%);
-  width: 10vw;
-  min-width: -webkit-max-content;
+  background-color: hsl(233, 87%, 63%);
+  width: 15vw;
   min-width: -moz-max-content;
   min-width: max-content;
-  box-shadow: 3px 3px 6px hsl(223deg, 100%, 88%);
+  box-shadow: 3px 3px 6px hsl(223, 100%, 88%);
   margin: 4px;
 }
 
@@ -75,11 +73,11 @@ div {
 
 #submit-button:hover {
   cursor: pointer;
-  background-color: hsl(233deg, 87%, 63%);
+  background-color: hsl(233, 87%, 63%);
 }
 
 #copy-text {
-  color: hsl(0deg, 0%, 59%);
+  color: hsl(0, 0%, 59%);
 }
 
 #img-div {
@@ -102,17 +100,17 @@ div {
 }
 
 .fa {
-  color: hsl(233deg, 87%, 63%);
+  color: hsl(233, 87%, 63%);
   padding: 7px;
   margin: auto 5px;
   border-radius: 50%;
-  border: 1px solid hsl(223deg, 100%, 88%);
+  border: 1px solid hsl(223, 100%, 88%);
   font-size: 17px;
 }
 
 .fa:hover {
   color: white;
-  background-color: hsl(233deg, 87%, 63%);
+  background-color: hsl(233, 87%, 63%);
 }
 
 .fa-facebook {
@@ -123,7 +121,7 @@ div {
   width: 17px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 485px) {
   body {
     margin: 0;
     padding: 50px 0;
@@ -137,13 +135,13 @@ div {
     flex-direction: column;
   }
   #email-input {
-    border: solid 1px hsl(223deg, 100%, 88%);
+    border: solid 1px hsl(223, 100%, 88%);
     border-radius: 50px;
     height: 33px;
     padding-left: 25x;
     width: 67vw;
     margin: auto;
-    color: hsl(209deg, 33%, 12%);
+    color: hsl(209, 33%, 12%);
     font-size: small;
   }
   #submit-button {
@@ -151,9 +149,9 @@ div {
     border: none;
     border-radius: 50px;
     height: 35px;
-    background-color: hsl(233deg, 87%, 63%);
+    background-color: hsl(233, 87%, 63%);
     width: 70vw;
-    box-shadow: 3px 3px 6px hsl(223deg, 100%, 88%);
+    box-shadow: 3px 3px 6px hsl(223, 100%, 88%);
     margin: 8px auto;
     font-size: small;
   }

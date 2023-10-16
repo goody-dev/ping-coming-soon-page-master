@@ -86,7 +86,7 @@ div {
 }
 
 #illustration {
-  width: 60%;
+  width: 50%;
   margin: 30px auto;
 }
 
@@ -121,6 +121,34 @@ div {
   width: 17px;
 }
 
+@media (max-width: 768px) {
+  #email-input {
+    border: solid 1px hsl(223, 100%, 88%);
+    border-radius: 50px;
+    height: 40px;
+    padding-left: 8px;
+    width: 40vw;
+    margin: 4px;
+    color: hsl(209, 33%, 12%);
+    font-size: small;
+  }
+  #submit-button {
+    color: white;
+    border: none;
+    border-radius: 50px;
+    height: 42px;
+    background-color: hsl(233, 87%, 63%);
+    width: 20vw;
+    min-width: -moz-max-content;
+    min-width: max-content;
+    box-shadow: 3px 3px 6px hsl(223, 100%, 88%);
+    margin: 4px;
+  }
+  #illustration {
+    width: 90%;
+    margin: 30px auto;
+  }
+}
 @media (max-width: 485px) {
   body {
     margin: 0;
@@ -167,33 +195,5 @@ div {
   }
   #copy-text {
     font-size: x-small;
-  }
-}
-@media (max-width: 768px) {
-  #email-input {
-    border: solid 1px hsl(223, 100%, 88%);
-    border-radius: 50px;
-    height: 40px;
-    padding-left: 8px;
-    width: 40vw;
-    margin: 4px;
-    color: hsl(209, 33%, 12%);
-    font-size: small;
-  }
-  #submit-button {
-    color: white;
-    border: none;
-    border-radius: 50px;
-    height: 42px;
-    background-color: hsl(233, 87%, 63%);
-    width: 20vw;
-    min-width: -moz-max-content;
-    min-width: max-content;
-    box-shadow: 3px 3px 6px hsl(223, 100%, 88%);
-    margin: 4px;
-  }
-  #illustration {
-    width: 90%;
-    margin: 30px auto;
   }
 }/*# sourceMappingURL=index.css.map */

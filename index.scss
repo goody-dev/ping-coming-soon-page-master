@@ -83,7 +83,7 @@ div {
     width: auto;
 }
 #illustration {
-    width: 50%;
+    width: 60%;
     margin: 30px auto;
 }
 #copy-text {
@@ -158,5 +158,32 @@ div {
     }
     #copy-text {
         font-size: x-small;
+    }
+}
+@media (max-width: 768px) {
+    #email-input {
+        border: solid 1px $pale-blue;
+        border-radius: 50px;
+        height: 40px;
+        padding-left: 8px;
+        width: 40vw;
+        margin: 4px;
+        color: $very-dark-blue;
+        font-size: small;
+    }
+    #submit-button {
+        color: white;
+        border: none;
+        border-radius: 50px;
+        height: 42px;
+        background-color: $blue;
+        width: 20vw;
+        min-width: max-content;
+        box-shadow: 3px 3px 6px $pale-blue;
+        margin: 4px;
+    }
+    #illustration {
+        width: 90%;
+        margin: 30px auto;
     }
 }

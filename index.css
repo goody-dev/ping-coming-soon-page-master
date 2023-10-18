@@ -165,7 +165,7 @@ div {
   #email-input {
     border: solid 1px hsl(223, 100%, 88%);
     border-radius: 50px;
-    height: 33px;
+    height: 40px;
     padding-left: 25x;
     width: 67vw;
     margin: auto;
@@ -176,7 +176,7 @@ div {
     color: white;
     border: none;
     border-radius: 50px;
-    height: 35px;
+    height: 43px;
     background-color: hsl(233, 87%, 63%);
     width: 70vw;
     box-shadow: 3px 3px 6px hsl(223, 100%, 88%);
@@ -192,6 +192,10 @@ div {
   #illustration {
     width: 80%;
     margin: 30px auto;
+  }
+  #socials {
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   #copy-text {
     font-size: x-small;
